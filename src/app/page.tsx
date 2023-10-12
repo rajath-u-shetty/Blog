@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { blogData } from "./data/BlogData";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
             {blogData.map((item) => (
               <div key={item.id} className=" border-2 border-white rounded-md mx-5 my-5  p-10">
                 <Link href={item.url}>
-                <img src={item.image} className="w-fit"/>
+                <Image alt="" src={item.image} className="w-fit"/>
                 <p className="text-bold text-3xl mb-3">{item.title}</p>
                 <ul>
                   {item.info.map((infoItem, index) => (

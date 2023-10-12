@@ -25,7 +25,7 @@ export default function Footer() {
                     <span  className="text-md ">  &#183;</span>
                     <span > &#169; 2023</span>
                     <span>  &#183;</span>
-                    <span>  Rajath U Shetty's Blog</span>
+                    <span>  Rajath U Shetty &apos; s Blog</span>
                 </h3>
                 <h3 className="flex justify-center text-black">
                     Tailwind CSS and Next.js

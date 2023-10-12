@@ -16,8 +16,8 @@ export default function page() {
                             </Link>
                             <ul className="flex gap-5 text-green-500  text-xl">
                                 {item.category.map((categoryItem, index) => (
-                                    <Link href={item.url}>
-                                        <li key={index} className="leading-7 hover:text-green-300">{categoryItem}</li>
+                                    <Link href={item.url} key={index}>
+                                        <li  className="leading-7 hover:text-green-300">{categoryItem}</li>
                                     </Link>
                                 ))}
                             </ul>

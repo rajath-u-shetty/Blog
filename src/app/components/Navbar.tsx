@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { HiMenuAlt3 } from "react-icons/hi"
 
@@ -5,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className={`p-5 bg-slate-800 flex justify-between w-auto items-center`}>
             <div className="flex items-center">
-                <img src="/images/profilepic.jpeg" className="rounded-full h-16 mr-4 border-emerald-900" />
+                <Image alt="profile pic" src="/images/profilepic.jpeg" className="rounded-full h-16 mr-4 border-emerald-900" />
                 <h1 className="text-4xl text-white font-bold">
                     <Link href={"/"}>
                         Rajath U shetty

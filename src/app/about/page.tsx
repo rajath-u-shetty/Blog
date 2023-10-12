@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaGithub, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 
@@ -8,7 +9,7 @@ export default function Home() {
             <hr className="mt-8 mb-8" />
             <div className="flex justify-evenly  text-[20px] ">
             <div className="border-white">
-                <img src="/images/profilepic.jpeg" alt="Rajath's pic" className="rounded-md h-60 w-60 " />
+                <Image src="/images/profilepic.jpeg" alt="Rajath's pic" className="rounded-md h-60 w-60 " />
                 <div className="flex pt-8 gap-4 justify-center">
                     <Link href={"www.github.com"} className="text-2xl rounded-md">
                             <FaGithub />
@@ -27,7 +28,7 @@ export default function Home() {
             </div>
             <div className="w-2/3 flex flex-col gap-y-5 items-start">
                 <p className="">
-                    I'm Rajath, a passionate and creative frontend developer based in the heart of Bengaluru. With a strong focus on building exceptional user experiences, I specialize in utilizing cutting-edge technologies like React and Next.js to bring web applications to life.
+                    I&apos;m Rajath, a passionate and creative frontend developer based in the heart of Bengaluru. With a strong focus on building exceptional user experiences, I specialize in utilizing cutting-edge technologies like React and Next.js to bring web applications to life.
                 </p>
                 <p>
                     <span className="block font-bold">React.js:</span>
